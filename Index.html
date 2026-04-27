@@ -1,1 +1,16 @@
 
+<link rel="stylesheet" href="styles.css">
+
+    <div class="container">
+        <h1>My Todo List</h1>
+        <form id="todoForm"><!-- This is where you input your task into the list. -->
+            <input type="text" id="todoInput" placeholder="Add a new task">
+            <button type="submit">Add</button>
+        </form>
+        <ul id="todoList"></ul>
+        <div class="stats"><!-- This is where your task are logged into the list. -->
+            <span id="totalTasks">Total: 0</span><!-- Total task you have input. -->
+            <span id="completedTasks">Completed: 0</span><!-- Amount of task you have marked off. -->
+        </div>
+    </div>
+    <script src="script.js"></script>

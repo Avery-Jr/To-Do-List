@@ -1,0 +1,53 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} /*Main container*/
+
+#todoForm {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+/*These two style the text box.*/
+#todoInput {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}/*The add button*/
+
+#todoList {
+  list-style: none;
+  padding: 0;
+}/*The list log*/
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}/*The items in the list*/
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}/*The style of an item */
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  color: #666;
+}/*Styles the total and completed stats.*/
